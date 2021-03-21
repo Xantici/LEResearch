@@ -1,0 +1,85 @@
+body {
+    background-color: aliceblue;
+    color:blue;
+    text-align: left;
+}
+
+header {
+    color:blue
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(188, 224, 255);
+    color: white;
+  }
+
+
+  /* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(13, 31, 112);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .logo {
+      float:left;
+      position:relative;
+      margin: 10px 15px 15px 10px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(227, 236, 255);
+    color: rgb(11, 32, 153);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #54abdd;
+    color: white;
+  }
+
+
+ /* Style all font awesome icons */
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  } 
+
+  
+  /* Dyslexic Font */
